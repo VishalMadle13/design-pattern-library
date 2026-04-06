@@ -1,7 +1,5 @@
 package dev.hashnode.systemdesigner.behavioral.cor.loggingframework_1.logger;
 
-import dev.hashnode.systemdesigner.behavioral.cor.Handler;
-import dev.hashnode.systemdesigner.behavioral.cor.Request;
 import dev.hashnode.systemdesigner.behavioral.cor.loggingframework_1.Level;
 import dev.hashnode.systemdesigner.behavioral.cor.loggingframework_1.LogRequest;
 
@@ -27,7 +25,7 @@ public abstract class Logger {
       }
     }
   }
-  private void validateRequest(Request request){
+  private void validateRequest(LogRequest request){
     Objects.requireNonNull(request);
     Objects.requireNonNull(request.getLevel());
     Objects.requireNonNull(getMinimumLogLevel());

@@ -6,8 +6,7 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class ConsoleLogger extends Logger {
+public class RemoteServerLogger extends Logger {
   private Level minimumLogLevel;
   private Logger nextLogger;
-
 }

@@ -1,0 +1,10 @@
+profile: dev
+logger:
+  appender:
+    console:
+      level: DEBUG
+    file:
+      level: INFO
+      path: /tmp/logs/sys.log
+    remote:
+      level: INFO
