@@ -2,7 +2,7 @@ package dev.hashnode.systemdesigner.behavioral.cor.loggingframework_2.appender;
 
 import dev.hashnode.systemdesigner.behavioral.cor.loggingframework_2.Level;
 import dev.hashnode.systemdesigner.behavioral.cor.loggingframework_2.formatter.FormattedMessage;
-import org.junit.platform.commons.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.Objects;
 
